@@ -1,16 +1,10 @@
-# dewsol
+# dewsol_assignment
+This project is a part of assignment, which demonstrate the use of Provider pattern and UI components like istView etc and user of Sanity CMS api.
 
-A flutter assignment project.
+# Application Screenshots(Android):
 
-## Getting Started
+<img src="https://github.com/ervinod/dewsol_assignment/blob/master/screenshots/screenshot1.jpg" width="300"><img src="https://github.com/ervinod/dewsol_assignment/blob/master/screenshots/screenshot1.jpg" width="300">
 
-This project is a starting point for a Flutter application.
+# Video Preview(Android):
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<video src='https://user-images.githubusercontent.com/25130073/153649874-e0d69e11-fb51-417f-af04-80537b216d2d.mp4' width=180/>
