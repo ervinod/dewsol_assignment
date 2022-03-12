@@ -11,5 +11,5 @@ This project is a part of assignment, which demonstrate the use of Provider patt
 
 # Sanity Backend Screenshots:
 
-<img src="https://github.com/ervinod/dewsol_assignment/blob/master/screenshots/screenshot3.png">
-<img src="https://github.com/ervinod/dewsol_assignment/blob/master/screenshots/screenshot4.png">
+<img src="https://github.com/ervinod/dewsol_assignment/blob/master/screenshots/screenshot3.png"  width="600">
+<img src="https://github.com/ervinod/dewsol_assignment/blob/master/screenshots/screenshot4.png"  width="600">
