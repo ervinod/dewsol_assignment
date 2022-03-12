@@ -1,6 +1,6 @@
 import 'package:dewsol/constants/colors.dart';
 import 'package:dewsol/constants/strings.dart';
-import 'package:dewsol/controllers/recommendation_controller.dart';
+import 'package:dewsol/controllers/movie_controller.dart';
 import 'package:dewsol/presentation/skeletons/movie_list_skeleton.dart';
 import 'package:dewsol/presentation/widgets/movie_list.dart';
 import 'package:dewsol/providers/movie_provider.dart';
@@ -18,8 +18,8 @@ class MovieListScreen extends StatefulWidget {
 }
 
 class _MovieListScreenState extends State<MovieListScreen> {
-  late final RecommendationController _controller;
-  late final MovieProvider _recommendationProvider;
+  late final MovieController _controller;
+  late final MovieProvider _movieProvider;
   final ValueNotifier<bool> loadingNotifier = ValueNotifier(false);
 
   //declaring node to manage text field focus
@@ -27,12 +27,12 @@ class _MovieListScreenState extends State<MovieListScreen> {
 
   @override
   void initState() {
-    _controller = RecommendationController(context: context);
-    _recommendationProvider =
+    _controller = MovieController(context: context);
+    _movieProvider =
         Provider.of<MovieProvider>(context, listen: false);
 
     ///getting movie list data
-    _controller.getRecommendationData(loadingNotifier);
+    _controller.getMovieData(loadingNotifier);
     super.initState();
   }
 
@@ -64,7 +64,7 @@ class _MovieListScreenState extends State<MovieListScreen> {
                 ///show horizontal listview
                 return MovieList(
                   key: const Key('movieList'),
-                  movieList: _recommendationProvider.movieList,
+                  movieList: _movieProvider.movieList,
                 );
               },
             ),

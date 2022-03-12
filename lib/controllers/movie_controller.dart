@@ -7,16 +7,16 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';
 
-class RecommendationController {
+class MovieController {
   final BuildContext context;
   late final MovieProvider provider;
 
-  RecommendationController({required this.context}) {
+  MovieController({required this.context}) {
     ///initialise required stuff here
     provider = Provider.of<MovieProvider>(context, listen: false);
   }
 
-  Future<void> getRecommendationData(
+  Future<void> getMovieData(
       ValueNotifier<bool> loadingNotifier) async {
     loadingNotifier.value = true;
 
