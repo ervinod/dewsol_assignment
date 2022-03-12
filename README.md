@@ -3,7 +3,7 @@ This project is a part of assignment, which demonstrate the use of Provider patt
 
 # Application Screenshots(Android):
 
-<img src="https://github.com/ervinod/dewsol_assignment/blob/master/screenshots/screenshot1.jpg" width="300"><img src="https://github.com/ervinod/dewsol_assignment/blob/master/screenshots/screenshot1.jpg" width="300">
+<img src="https://github.com/ervinod/dewsol_assignment/blob/master/screenshots/screenshot1.png" width="300"><img src="https://github.com/ervinod/dewsol_assignment/blob/master/screenshots/screenshot2.png" width="300">
 
 # Video Preview(Android):
 
